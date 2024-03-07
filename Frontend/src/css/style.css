@@ -1,0 +1,150 @@
+*{
+    margin: auto;
+    padding: none;
+    box-sizing: border-box;
+}
+
+h2{
+    margin-top: 1rem;
+    border: 1px solid black;
+    line-height: 50px;
+    height: 50px;
+}
+h4{
+    padding-top: 0.5rem;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dfdde0;
+    height: 250px;
+}
+
+.formTaskBtn{
+    margin-left: 0.5rem;
+}
+
+.categoryContainer{
+    display:flex;
+    justify-content: space-evenly;
+    width: 330px;
+    margin-top: 2rem;
+}
+
+.category{
+    line-height: 50px;
+    aspect-ratio: 1/0.5;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.uxColor{
+    background-color: #d99c77;
+}
+
+.frontEndColor{
+    background-color: #97c0c1;
+}
+
+.backEndColor{
+    background-color: #b4aaba;
+}
+
+.taskContainer{
+    margin-top: 1rem;
+    display:flex;
+    width: 350px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.toDoContainer, .progressContainer, .doneContainer{
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.taskCard{
+    margin-top: 0.2rem;
+    height: 95px;
+    border-radius: 5px;
+    text-align: start;
+    
+}
+
+.taskCard p{
+    padding-left: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.taskCard h4{
+    padding-left: 1rem;
+    margin-bottom: 0.4rem;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.taskCard button{
+    margin-left: 1rem;
+}
+
+.assignForm{
+    margin-top: 1.5rem;
+    display:flex;
+    
+}
+
+.assignedInput{
+    width: 220px;
+}
+
+@media screen and (min-width: 800px){
+    .categoryContainer{
+        width: 400px;
+    }
+
+    .category{
+        width: 110px;
+       
+    }
+
+    .taskContainer{
+        width: 650px;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .toDoContainer, .progressContainer, .doneContainer{
+        width: 320px;
+        height: 450px;
+       
+    }
+}
+
+@media screen and (min-width: 900px){
+    .categoryContainer{
+        width: 400px;
+    }
+
+    .category{
+        width: 110px;
+       
+    }
+
+    .taskContainer{
+        width: 1100px;
+        justify-content: space-evenly;
+        flex-direction: row;
+        
+    }
+
+    .toDoContainer, .progressContainer, .doneContainer{
+        height: 600px;
+    }
+}

@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1709804435353,
+        "task": "Create hamburger menu",
+        "category": "dev front end",
+        "status": "done",
+        "assigned": "Stina"
+    },
+    {
+        "id": 1709804441984,
+        "task": "Create mockup",
+        "category": "ux",
+        "status": "done",
+        "assigned": "Aline"
+    },
+    {
+        "id": 1709804448487,
+        "task": "Create logo",
+        "category": "ux",
+        "status": "progress",
+        "assigned": "Aline"
+    },
+    {
+        "id": 1709804455697,
+        "task": "Debugging",
+        "category": "dev back end",
+        "status": "to do",
+        "assigned": "none"
+    },
+    {
+        "id": 1709804552486,
+        "task": "Create footer",
+        "category": "dev front end",
+        "status": "to do",
+        "assigned": "none"
+    },
+    {
+        "id": 1709804567761,
+        "task": "Run API test",
+        "category": "dev back end",
+        "status": "progress",
+        "assigned": "Kalle"
+    },
+    {
+        "id": 1709804609660,
+        "task": "Fix routers",
+        "category": "dev back end",
+        "status": "to do",
+        "assigned": "none"
+    }
+]
